@@ -1,0 +1,20 @@
+.controllsButton {
+  display: inline-block;
+  border: 0;
+  outline: none;
+  background-color: white;
+  padding: 24px;
+  border-radius: 50%;
+  font-size: 24px;
+  box-shadow: 0 0 16px #eee;
+  margin-right: 16px;
+  line-height: 1;
+}
+
+.controllsButton:last-child {
+  margin-right: 0;
+}
+
+.controllsWrapper {
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+.interests {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.interestsItem {
+  background-color: white;
+  padding: 10px;
+  border-radius: 100vh;
+  color: black;
+  margin-right: 8px;
+}
+
+.interestsWrapper {
+  overflow-y: scroll;
+}
+
+.interestsWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.interestsWrapper {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}

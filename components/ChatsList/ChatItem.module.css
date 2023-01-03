@@ -1,0 +1,44 @@
+.chatItem {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.chatImage {
+  width: 80px;
+  height: 80px;
+  background-color: #e2e2e2;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.chatInfo {
+  width: calc(100% - 96px);
+}
+
+.chatTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatText {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.chatSubtext {
+  color: #aaa;
+}
+
+.chatDate {
+  font-size: 14px;
+}
+
+.chatAuthor {
+  margin: 0;
+}
